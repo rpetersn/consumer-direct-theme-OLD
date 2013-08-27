@@ -1,0 +1,50 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Small Desktop Stylsheet
+
+******************************************************************/
+
+#logo {
+	float: left;
+	
+	a { 
+		float: left;
+	
+		img {
+			float: left;
+		}
+	}
+}
+
+#top-numbers {
+	float: right;
+	padding-left: 30px;
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 30px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 30px;
+	
+	a { color: #fff; text-decoration: none; font-weight: bold; }
+	
+	/* styling phone numbers */
+	a[href^="tel:"]:before { display: none; }
+			
+}
+
+	
+#inner-header .nav-collapse.collapse {
+	display: block;
+	float: right;
+	clear: right;
+	text-align: right;
+
+	> ul {
+		display: block;
+		float: right;
+		margin: 25px 0 0 15px;
+	}
+}
